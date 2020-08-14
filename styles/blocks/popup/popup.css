@@ -1,0 +1,19 @@
+@import url(./__input/popup__input.css);
+@import url(./__submit/popup__submit.css);
+@import url(./__subHeader/popup__subHeader.css);
+@import url(./__header/popup__header.css);
+@import url(./__form/popup__form.css);
+@import url(./__confidential/popup__confidential.css);
+@import url(./__block/popup__block.css);
+@import url(./__close/popup__close.css);
+@import url(./__label/popup__label.css);
+
+.popup{
+    position: fixed;
+    z-index: 4;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

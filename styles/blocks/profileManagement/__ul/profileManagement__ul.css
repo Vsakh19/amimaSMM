@@ -1,0 +1,10 @@
+.profileManagement__ul{
+    padding-left: 20px;
+    margin: 56px 0 0 15px;
+}
+
+@media screen and (max-width: 660px){
+    .profileManagement__ul{
+        margin: 20px 10px 0 10px;
+    }
+}

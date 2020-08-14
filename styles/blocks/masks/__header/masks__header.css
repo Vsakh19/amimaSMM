@@ -1,0 +1,17 @@
+.masks__header{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    margin-bottom: 48px;
+    color: #3B3B3E;
+    text-align: center;
+}
+
+@media screen and (max-width: 425px){
+    .masks__header{
+        font-size: 40px;
+        line-height: 65px;
+    }
+}

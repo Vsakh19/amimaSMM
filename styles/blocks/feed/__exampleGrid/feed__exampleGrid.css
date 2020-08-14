@@ -1,0 +1,27 @@
+.feed__exampleGrid{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 26px;
+}
+
+
+@media screen and (max-width: 1810px){
+    .feed__exampleGrid{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .feed__exampleGrid{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .feed__exampleGrid{
+        grid-template-columns: 1fr;
+        margin: 0 10px;
+    }
+}

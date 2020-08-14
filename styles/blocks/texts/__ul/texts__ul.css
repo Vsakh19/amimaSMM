@@ -1,0 +1,25 @@
+.texts__ul{
+    list-style-type: disc;
+    margin: 0 250px 0 0;
+    padding-left: 21px;
+    min-width: 615px;
+}
+
+@media screen and (max-width: 1500px){
+    .texts__ul{
+        margin: 0 0 40px 0;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .texts__ul{
+        min-width: unset;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .texts__ul{
+        padding-right: 10px;
+        padding-left: 40px;
+    }
+}

@@ -1,0 +1,23 @@
+.popup__block{
+    width: 683px;
+    min-height: 535px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    z-index: 4;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .popup__block{
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 550px){
+    .popup__block{
+        transform: unset;
+    }
+}

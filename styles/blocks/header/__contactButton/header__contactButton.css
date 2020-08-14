@@ -1,0 +1,31 @@
+@import url(./_orange/header__contactButton_orange.css);
+
+.header__contactButton{
+    width: 424px;
+    height: 81px;
+    background: #7ECCC0;
+    border-radius: 56px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 48px;
+    color: #3B3B3E;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.profileManagement__listBlock .header__contactButton{
+    width: 100%;
+}
+
+@media screen and (max-width: 450px){
+    .header__contactButton{
+        font-size: 20px;
+        line-height: 22px;
+        width: 80%;
+        height: 50px;
+    }
+}

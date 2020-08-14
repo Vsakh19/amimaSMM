@@ -1,0 +1,10 @@
+@import url(./__header/adds__header.css);
+@import url(./__grid/adds__grid.css);
+@import url(./__bannerBackground/adds__bannerBackground.css);
+
+.adds{
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

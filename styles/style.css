@@ -1,0 +1,36 @@
+@import url('./normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&display=swap');
+@import url('./blocks/page/page.css');
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/texts/texts.css');
+@import url('./blocks/exampleText/exampleText.css');
+@import url('./blocks/inst/inst.css');
+@import url('./blocks/colorful/colorful.css');
+@import url('./blocks/profileManagement/profileManagement.css');
+@import url('./blocks/feed/feed.css');
+@import url('./blocks/clients/clients.css');
+@import url('./blocks/adds/adds.css');
+@import url('./blocks/stories/stories.css');
+@import url('./blocks/contentPlans/contentPlans.css');
+@import url('./blocks/storiesRubrics/storiesRubrics.css');
+@import url('./blocks/rubricBlock/rubricBlock.css');
+@import url('./blocks/masks/masks.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/shadow/shadow.css');
+@import url('./blocks/contactButton/contactButton.css');
+@import url('./blocks/mobile/mobile.css');
+@import url('./blocks/arrowPrev/arrowPrev.css');
+@import url('./blocks/arrowNext/arrowNext.css');
+
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F2F4F8;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #ECBB97;
+    border-radius: 20px;
+}

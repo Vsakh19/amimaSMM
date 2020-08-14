@@ -1,0 +1,13 @@
+@import url(./__header/profileManagement__header.css);
+@import url(./__figure/profileManagement__figure.css);
+@import url(./__phonePic/profileManagement__phonePic.css);
+@import url(./__ul/profileManagement__ul.css);
+@import url(./__li/profileManagement__li.css);
+@import url(./__listBlock/profileManagement__listBlock.css);
+
+.profileManagement{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

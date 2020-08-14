@@ -1,0 +1,24 @@
+@import url(./__header/storiesRubrics__header.css);
+@import url(./__exampleBlock/storiesRubrics__exampleBlock.css);
+@import url(./__example/storiesRubrics__example.css);
+
+.storiesRubrics{
+    margin-top: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .storiesRubrics {
+        font-size: 50px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .storiesRubrics {
+        font-size: 40px;
+        line-height: 65px;
+    }
+}

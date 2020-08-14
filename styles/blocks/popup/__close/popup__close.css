@@ -1,0 +1,24 @@
+.popup__close{
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.popup__close:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 550px){
+    .popup__close{
+        top: unset;
+        right: unset;
+        bottom: -60px;
+        background-color: #3B3B3E;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+}

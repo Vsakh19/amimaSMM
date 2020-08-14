@@ -1,0 +1,33 @@
+.texts__greenPic{
+    position: absolute;
+    right: 303px;
+    top: 400px;
+    z-index: 0;
+    width: 16.6%;
+}
+
+@media screen and (max-width: 1760px){
+    .texts__greenPic{
+        top: 250px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .texts__greenPic{
+        right: 150px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .texts__greenPic{
+        right: 100px;
+        top: 150px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .texts__greenPic{
+        right: 20px;
+        top: 100px;
+    }
+}

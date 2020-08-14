@@ -1,0 +1,53 @@
+.profileManagement__phonePic_big{
+    top: 198px;
+    left: 235px;
+    width: 376px;
+    height: 756px;
+}
+
+@media screen and (max-width: 1800px){
+    .profileManagement__phonePic_big{
+        left: 135px;
+        top: 89px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .profileManagement__phonePic_big{
+        top: 230px;
+        width: 235px;
+        height: 470px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .profileManagement__phonePic_big{
+        top: 140px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .profileManagement__phonePic_big{
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .profileManagement__phonePic_big{
+        top: 190px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width: 635px){
+    .profileManagement__phonePic_big{
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .profileManagement__phonePic_big{
+        display: none;
+    }
+}

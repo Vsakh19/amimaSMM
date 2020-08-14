@@ -1,0 +1,6 @@
+.storiesRubrics__exampleBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 58px 0 0 0;
+}

@@ -1,0 +1,17 @@
+.footer__header{
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    color: #3B3B3E;
+    margin: 0 0 90px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 569px){
+    .footer__header{
+        font-size: 50px;
+        line-height: 75px;
+    }
+}

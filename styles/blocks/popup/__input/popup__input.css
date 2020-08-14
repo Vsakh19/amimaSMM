@@ -1,0 +1,20 @@
+.popup__input{
+    border: none;
+    border-bottom: 1px solid grey;
+    height: 48px;
+    margin: 0;
+    line-height: 30px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    outline: none;
+}
+
+.popup__input:first-of-type{
+    margin-bottom: 25px;
+}
+
+.popup__input::placeholder{
+    opacity: 0.5;
+}

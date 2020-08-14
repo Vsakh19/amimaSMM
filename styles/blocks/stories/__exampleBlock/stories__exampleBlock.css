@@ -1,0 +1,28 @@
+.stories__exampleBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 37px;
+    margin: 0 26px;
+}
+
+@media screen and (max-width: 1850px){
+    .stories__exampleBlock{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .stories__exampleBlock{
+        grid-template-columns: 1fr 1fr ;
+        grid-column-gap: 100px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .stories__exampleBlock{
+        grid-template-columns: 1fr;
+        grid-column-gap: 100px;
+    }
+}

@@ -1,0 +1,17 @@
+.texts__outerContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px){
+    .texts__outerContainer {
+        padding: 0 1vw;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .texts__outerContainer {
+        padding: 0;
+    }
+}

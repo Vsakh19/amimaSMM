@@ -1,0 +1,12 @@
+@import url(./__exampleBlock/stories__exampleBlock.css);
+@import url(./__outerBlock/stories__outerBlock.css);
+@import url(./__header/stories__header.css);
+@import url(./__story/stories__story.css);
+@import url(./__example/stories__example.css);
+
+.stories{
+    margin-top: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+@import url(./_orange/exampleText__coloredTop_orange.css);
+@import url(./_green/exampleText__coloredTop_green.css);
+
+.exampleText__coloredTop{
+    width: 100%;
+    height: 30px;
+}

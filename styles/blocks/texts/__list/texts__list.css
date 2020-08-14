@@ -1,0 +1,12 @@
+.texts__list{
+    width: 1241px;
+    margin: 0 181px 364px 181px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1500px){
+    .texts__list{
+        width: 100%;
+        margin: 0 0 150px 0;
+    }
+}

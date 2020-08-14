@@ -1,0 +1,36 @@
+.masks__exampleBlock{
+    display: grid;
+    grid-template: 1fr/1fr 1fr 1fr 1fr;
+    grid-gap: 54px;
+    margin: 0 40px;
+}
+
+@media screen and (max-width: 1600px){
+    .masks__exampleBlock{
+        grid-template: 1fr/1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .masks__exampleBlock{
+        grid-template: 1fr/1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .masks__exampleBlock{
+        grid-template: 1fr/1fr;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .masks__exampleBlock{
+        margin: 0 5px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .masks__exampleBlock{
+        margin: 0 10px;
+    }
+}

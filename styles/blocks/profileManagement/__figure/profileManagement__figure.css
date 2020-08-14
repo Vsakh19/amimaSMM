@@ -1,0 +1,27 @@
+.profileManagement__figure{
+    position: absolute;
+    left: 0;
+    top: 69px;
+    width: 630px;
+    height: 941px;
+}
+
+@media screen and (max-width: 1500px){
+    .profileManagement__figure{
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .profileManagement__figure{
+        width: 200px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .profileManagement__figure{
+        display: none;
+    }
+}

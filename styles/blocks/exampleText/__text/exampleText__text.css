@@ -1,0 +1,28 @@
+.exampleText__text{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: #000000;
+    margin: 40px 40px 50px 50px;
+}
+
+@media screen and (max-width: 900px){
+    .exampleText__text{
+        margin: 20px 20px 25px 25px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .exampleText__text{
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .exampleText__text{
+        margin: 10px 10px 12px 12px;
+    }
+}

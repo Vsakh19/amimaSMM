@@ -1,0 +1,11 @@
+@import url(./__header/contentPlans__header.css);
+@import url(./__exampleBlock/contentPlans__exampleBlock.css);
+@import url(./__table/contentPlans__table.css);
+@import url(./__example/contentPlans__example.css);
+
+.contentPlans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 56px;
+}

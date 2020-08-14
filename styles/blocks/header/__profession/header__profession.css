@@ -1,0 +1,23 @@
+.header__profession{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 48px;
+    color: #3B3B3E;
+    margin: 0 0 52px 0;
+}
+
+@media screen and (max-width: 635px){
+    .header__profession{
+        font-size: 35px;
+        line-height: 39px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .header__profession{
+        font-size: 26px;
+        line-height: 29px;
+    }
+}

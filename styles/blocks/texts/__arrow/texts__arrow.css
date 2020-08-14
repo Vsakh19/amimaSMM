@@ -1,0 +1,59 @@
+.texts__arrow{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 1;
+}
+
+.contentPlans__exampleBlock .texts__arrow{
+    z-index: 0;
+}
+
+.texts__arrow:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 780px){
+    .contentPlans__exampleBlock .texts__arrow{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .feed__outerContainer .texts__arrow{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .texts__arrow{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .feed__outerContainer .texts__arrow{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .feed__outerContainer .texts__arrow{
+        width: 30px;
+        height: 30px;
+    }
+    .masks__outerBlock .texts__arrow{
+        width: 45px;
+        height: 45px;
+    }
+    .texts__arrow{
+        width: 30px;
+        height: 30px;
+    }
+}

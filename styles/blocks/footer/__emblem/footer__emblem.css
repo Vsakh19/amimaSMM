@@ -1,0 +1,22 @@
+.footer__emblem{
+    width: 340px;
+}
+
+@media screen and (max-width: 1200px){
+    .footer__emblem{
+        width: 238px;
+    }
+}
+
+
+@media screen and (max-width: 740px){
+    .footer__emblem{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .footer__emblem{
+        width: 75px;
+    }
+}

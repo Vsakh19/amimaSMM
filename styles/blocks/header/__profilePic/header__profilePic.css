@@ -1,0 +1,38 @@
+.header__profilePic{
+    height: 634px;
+    width: 475px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1500px){
+    .header__mainBlock .header__profilePic:first-of-type{
+        display: none;
+    }
+    .header__mainContent .header__profilePic:first-of-type{
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1501px){
+    .header__mainBlock .header__profilePic{
+        display: block;
+    }
+    .header__mainContent .header__profilePic{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .header__profilePic{
+        height: 400px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .header__profilePic{
+        height: 300px;
+        width: 225px;
+    }
+}

@@ -1,0 +1,10 @@
+.masks__mask{
+    width: 300px;
+}
+
+@media screen and (max-width: 450px){
+    .masks__mask{
+        width: 70vw;
+        height: unset;
+    }
+}

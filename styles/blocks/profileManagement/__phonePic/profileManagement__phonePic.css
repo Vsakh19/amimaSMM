@@ -1,0 +1,6 @@
+@import url(./_big/profileManagement__phonePic_big.css);
+@import url(./_small/profileManagement__phonePic_small.css);
+
+.profileManagement__phonePic{
+    position: absolute;
+}

@@ -1,0 +1,43 @@
+@import url(./__coloredTop/exampleText__coloredTop.css);
+@import url(./__text/exampleText__text.css);
+
+.exampleText{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: white;
+    height: 700px;
+    overflow-y: scroll;
+}
+
+.exampleText::-webkit-scrollbar {
+    display: none;
+}
+
+@media screen and (max-width: 1700px){
+    .exampleText:last-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .exampleText{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .exampleText:first-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .exampleText{
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .exampleText{
+        height: 400px;
+    }
+}

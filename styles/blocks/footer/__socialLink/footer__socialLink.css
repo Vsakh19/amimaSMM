@@ -1,0 +1,38 @@
+.footer__socialLink{
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    color: #3B3B3E;
+    margin: 25px 0 0 0;
+}
+
+.footer__socialLink:visited{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1200px){
+    .footer__socialLink{
+        font-size: 27px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .footer__socialLink{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .footer__socialLink{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 470px){
+    .footer__socialLink{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,13 @@
+@import url(./__button/footer__button.css);
+@import url(./__bottomLine/footer__bottomLine.css);
+@import url(./__emblem/footer__emblem.css);
+@import url(./__social/footer__social.css);
+@import url(./__socialGrid/footer__socialGrid.css);
+@import url(./__main/footer__main.css);
+@import url(./__header/footer__header.css);
+@import url(./__socialLink/footer__socialLink.css);
+
+.footer{
+    background: #ECBB97;
+    padding-top: 61px;
+}

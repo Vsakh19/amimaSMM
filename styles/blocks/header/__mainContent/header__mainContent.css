@@ -1,0 +1,14 @@
+.header__mainContent{
+    max-width: 802px;
+    min-height: 643px;
+    margin-left: 138px;
+}
+
+@media screen and (max-width: 1500px){
+    .header__mainContent{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+}

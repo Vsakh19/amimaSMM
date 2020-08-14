@@ -1,0 +1,39 @@
+.rubricBlock__header{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    line-height: 76px;
+    color: #000000;
+    margin: 0 0 35px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .rubricBlock__header {
+        margin: 0 0 20px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .rubricBlock__header {
+        font-size: 50px;
+        line-height: 68px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .rubricBlock__header {
+        font-size: 40px;
+        line-height: 65px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rubricBlock__header {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

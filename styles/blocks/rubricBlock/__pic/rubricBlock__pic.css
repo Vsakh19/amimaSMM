@@ -1,0 +1,39 @@
+.rubricBlock__pic{
+    width: 865px;
+    margin-bottom: 40px;
+}
+
+.rubricBlock__pic:nth-of-type(2n){
+    width: 662px;
+}
+
+
+@media screen and (max-width: 1837px){
+    .rubricBlock__pic{
+        width: 56%
+    }
+
+    .rubricBlock__pic:nth-of-type(2n){
+        width: 43%;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .rubricBlock__pic{
+        width: 80vw;
+    }
+
+    .rubricBlock__pic:nth-of-type(2n){
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .rubricBlock__pic{
+        width: 70vw;
+    }
+
+    .rubricBlock__pic:nth-of-type(2n){
+        width: 70vw;
+    }
+}

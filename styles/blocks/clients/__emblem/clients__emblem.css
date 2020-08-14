@@ -1,0 +1,21 @@
+.clients__emblem{
+    width: 225px;
+}
+
+@media screen and (max-width: 1020px){
+    .clients__emblem{
+        width: 22vw;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .clients__emblem{
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .clients__emblem{
+        width: 40vw;
+    }
+}

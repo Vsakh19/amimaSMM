@@ -1,0 +1,15 @@
+.feed__example{
+    
+}
+
+@media screen and (max-width: 1810px){
+    .feed__example:last-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .feed__example:first-of-type{
+        display: none;
+    }
+}

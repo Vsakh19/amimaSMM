@@ -1,0 +1,30 @@
+.feed__pics{
+    width: 523px;
+    height: 700px;
+}
+
+@media screen and (max-width: 1300px){
+    .feed__pics{
+        width: 600px;
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .feed__pics{
+        width: 550px;
+        height: unset;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .feed__pics{
+        width: 85vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .feed__pics{
+        width: 78vw;
+    }
+}

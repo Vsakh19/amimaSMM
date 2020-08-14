@@ -1,0 +1,10 @@
+@import url(./__header/clients__header.css);
+@import url(./__grid/clients__grid.css);
+@import url(./__emblem/clients__emblem.css);
+
+.clients{
+    margin-top: 182px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+@import url(./__mask/masks__mask.css);
+@import url(./__exampleBlock/masks__exampleBlock.css);
+@import url(./__example/masks__example.css);
+@import url(./__header/masks__header.css);
+@import url(./__outerBlock/masks__outerBlock.css);
+
+.masks{
+    margin: 109px 0 109px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

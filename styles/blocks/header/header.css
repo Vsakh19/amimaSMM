@@ -1,0 +1,22 @@
+@import url(./__figure/header__figure.css);
+@import url(./__mainBlock/header__mainBlock.css);
+@import url(./__profilePic/header__profilePic.css);
+@import url(./__mainContent/header__mainContent.css);
+@import url(./__name/header__name.css);
+@import url(./__profession/header__profession.css);
+@import url(./__description/header__description.css);
+@import url(./__contactButton/header__contactButton.css);
+
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 197px;
+    padding-bottom: 261px;
+}
+
+@media screen and (max-width: 1500px){
+    .header{
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+}

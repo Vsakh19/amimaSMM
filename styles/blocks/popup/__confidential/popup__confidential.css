@@ -1,0 +1,17 @@
+.popup__confidential{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #3B3B3E;
+    margin: 0 0 32px 0;
+}
+
+@media screen and (max-width: 550px){
+    .popup__confidential{
+        font-size: 7px;
+        line-height: 9px;
+    }
+}

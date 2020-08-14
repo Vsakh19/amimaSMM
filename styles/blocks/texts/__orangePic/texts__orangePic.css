@@ -1,0 +1,7 @@
+.texts__orangePic{
+    position: absolute;
+    right: 0;
+    top: -300px;
+    z-index: 0;
+    width: 20.5%;
+}

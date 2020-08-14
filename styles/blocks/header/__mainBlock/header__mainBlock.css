@@ -1,0 +1,6 @@
+.header__mainBlock{
+    display: flex;
+    flex-direction: row;
+    max-width: 1609px;
+    z-index: 1;
+}

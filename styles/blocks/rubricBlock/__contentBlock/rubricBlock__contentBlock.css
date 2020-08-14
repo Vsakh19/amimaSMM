@@ -1,0 +1,12 @@
+.rubricBlock__contentBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 52px;
+}
+
+@media screen and (max-width: 1023px) {
+    .rubricBlock__contentBlock {
+        flex-direction: column;
+    }
+}

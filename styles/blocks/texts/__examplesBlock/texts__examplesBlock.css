@@ -1,0 +1,41 @@
+.texts__examplesBlock{
+    display: grid;
+    grid-gap: 2.9vw;
+    grid-template-columns: 27vw 27vw 27vw;
+    grid-template-rows: 1fr;
+    margin: 0 26px;
+    
+}
+
+@media screen and (max-width: 1700px){
+    .texts__examplesBlock{
+        grid-gap: 4vw;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .texts__examplesBlock{
+        grid-gap: 2vw;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .texts__examplesBlock{
+        grid-template-columns: 80vw;
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .texts__examplesBlock{
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .texts__examplesBlock{
+        grid-template-columns: 75vw;
+    }
+}

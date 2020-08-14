@@ -1,0 +1,12 @@
+@import url(./__header/feed__header.css);
+@import url(./__exampleGrid/feed__exampleGrid.css);
+@import url(./__outerContainer/feed__outerContainer.css);
+@import url(./__pics/feed__pics.css);
+@import url(./__example/feed__example.css);
+
+.feed{
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+.header__name{
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 102px;
+    text-transform: capitalize;
+    color: #474745;
+    margin: 0;
+}
+
+@media screen and (max-width: 635px){
+    .header__name{
+        font-size: 50px;
+        line-height: 51px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .header__name{
+        font-size: 40px;
+        line-height: 41px;
+    }
+}

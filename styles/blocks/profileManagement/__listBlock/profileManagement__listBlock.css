@@ -1,0 +1,30 @@
+.profileManagement__listBlock{
+    width: 38%;
+    padding: 0 37px 74px 37px;
+    background: #ECBB97;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    z-index: 1;
+    margin-right: 205px;
+    margin-top: 47px;
+}
+
+@media screen and (max-width: 1110px){
+    .profileManagement__listBlock{
+        padding: 0 20px 35px 20px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .profileManagement__listBlock{
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .profileManagement__listBlock{
+        width: 70%;
+    }
+}

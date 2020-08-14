@@ -1,0 +1,24 @@
+.texts__header{
+    font-family: Playfair Display, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 100px;
+    color: #474745;
+    margin: 0 0 60px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 635px){
+    .texts__header{
+        font-size: 50px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .texts__header{
+        font-size: 40px;
+        line-height: 53px;
+    }
+}

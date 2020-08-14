@@ -1,0 +1,21 @@
+.stories__example{
+    
+}
+
+@media screen and (max-width: 1850px){
+    .stories__example:last-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .stories__example:first-of-type{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .stories__example:nth-of-type(2){
+        display: none;
+    }
+}

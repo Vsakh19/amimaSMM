@@ -1,0 +1,15 @@
+.stories__story{
+    width: 388px;
+}
+
+@media screen and (max-width: 1080px){
+    .stories__story{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .stories__story{
+        width: 250px;
+    }
+}

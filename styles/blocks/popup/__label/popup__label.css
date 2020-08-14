@@ -1,0 +1,15 @@
+.popup__label{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #3B3B3E;
+}
+
+@media screen and (max-width: 550px){
+    .popup__label{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
